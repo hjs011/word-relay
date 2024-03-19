@@ -1,3 +1,6 @@
 # This is the second project.
 for i in range(301, 401):
-    print(i)
+    if i % 100 == 0:
+        pass
+    else:
+        print(i)
